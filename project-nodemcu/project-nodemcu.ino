@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3Gw6iXc5d"
+#define BLYNK_TEMPLATE_ID "YOUR_BLYNK_TEMPLATE_ID"
 #define BLYNK_TEMPLATE_NAME "Home Automation"
-#define BLYNK_AUTH_TOKEN "Dbq0R5i32P1mLyLZYzF89g472xqP1JcT"
+#define BLYNK_AUTH_TOKEN "YOUR_BLYNK_AUTH_TOKEN"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -9,12 +9,12 @@
 
 SoftwareSerial arduino(D6, D7);   // RX, TX
 
-char ssid[] = "S25";
-char pass[] = "hehehehe";
+char ssid[] = "Wifi_name";
+char pass[] = "PASSWORD";
 
 WiFiClient client;
-unsigned long myChannelNumber = 3186731;
-const char *myWriteAPIKey = "JLAOKCUXQD0KK99Q";
+unsigned long myChannelNumber = ThingSpeak-channel-number;
+const char *myWriteAPIKey = "ThingSpeak_Write_API_Key";
 
 float temp = 0;
 float hum = 0;
