@@ -1,3 +1,4 @@
+
 # Smart Home Automation System
 
 This repository contains the implementation of a smart home automation system using Arduino UNO and ESP8266 NodeMCU. The system integrates sensors, actuators, wireless communication, and cloud monitoring to automate household functions such as lighting, door control, and temperature-based ventilation. 
@@ -58,4 +59,6 @@ The system functioned correctly in both automatic and manual modes. Sensors resp
 
 This project validates the integration of embedded systems with IoT platforms for practical home automation. It achieves its objectives and provides a foundation for future enhancements such as adding more appliances, security modules, or advanced analytics.
 
+<img width="1080" height="687" alt="Screenshot 2025-12-10 133411" src="https://github.com/user-attachments/assets/5f9ada5c-a3b5-4034-9244-4cde8ed891c2" />
+<img width="1349" height="834" alt="Screenshot 2025-12-10 133749" src="https://github.com/user-attachments/assets/370b9235-0add-4fed-ac01-b343d6170e5a" />
 
